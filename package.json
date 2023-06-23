@@ -1,0 +1,32 @@
+{
+  "name": "crimson-taxonomy-terms-list-block",
+  "version": "1.0.0",
+  "description": "A custom list of terms",
+  "main": "index.js",
+  "scripts": {
+    "test": "crimson-test",
+    "start": "wp-scripts start",
+    "build": "wp-scripts build",
+    "plugin-zip": "wp-scripts plugin-zip"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ulisesfreitas/crimson-taxonomy-terms-list-block.git"
+  },
+  "keywords": [
+    "Terms",
+    "Taxonomies"
+  ],
+  "author": "UlisesFreitas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ulisesfreitas/crimson-taxonomy-terms-list-block/issues"
+  },
+  "homepage": "https://github.com/ulisesfreitas/crimson-taxonomy-terms-list-block#readme",
+  "devDependencies": {
+    "@wordpress/scripts": "26.6.0"
+  },
+  "dependencies": {
+    "classnames": "^2.3.2"
+  }
+}
